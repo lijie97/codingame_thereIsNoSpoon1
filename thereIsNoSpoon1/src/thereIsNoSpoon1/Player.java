@@ -11,7 +11,7 @@ public class Player {
         if (in.hasNextLine()) {
             in.nextLine();
         }
-        
+        ///
         boolean[][] lines=new boolean[31][31];
         for (int i = 0; i < height; i++) {
             String line = in.nextLine(); 
@@ -49,6 +49,7 @@ public class Player {
 	        		
         		}
         	}
+        in.close();
         }
         
     }
